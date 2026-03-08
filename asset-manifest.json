@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/petProjectTehno-Market/static/css/main.87b72cd8.css",
+    "main.js": "/petProjectTehno-Market/static/js/main.451ef1b4.js",
+    "static/js/453.fd2f0c4a.chunk.js": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js",
+    "static/media/logoTehNoMarket.jpeg": "/petProjectTehno-Market/static/media/logoTehNoMarket.50df729185bcb8d6ae62.jpeg",
+    "static/media/slide1.webp": "/petProjectTehno-Market/static/media/slide1.4e2ad2b4246a90ebf463.webp",
+    "static/media/slide4.webp": "/petProjectTehno-Market/static/media/slide4.abf5ffd63bfe416dc214.webp",
+    "static/media/slide2.webp": "/petProjectTehno-Market/static/media/slide2.dee163f408a6aad578ac.webp",
+    "static/media/slide3.webp": "/petProjectTehno-Market/static/media/slide3.c7de01424231d42a8edf.webp",
+    "static/media/setingLogo.svg": "/petProjectTehno-Market/static/media/setingLogo.3e70fd29493b28bfde2948cddc658886.svg",
+    "static/media/gitHub.webp": "/petProjectTehno-Market/static/media/gitHub.5a5af0ee4cd55fcd5d50.webp",
+    "static/media/email.webp": "/petProjectTehno-Market/static/media/email.f4dc50fa38ea5260209d.webp",
+    "static/media/telegram.webp": "/petProjectTehno-Market/static/media/telegram.c3d3a8d80e23a838ea83.webp",
+    "index.html": "/petProjectTehno-Market/index.html",
+    "main.87b72cd8.css.map": "/petProjectTehno-Market/static/css/main.87b72cd8.css.map",
+    "main.451ef1b4.js.map": "/petProjectTehno-Market/static/js/main.451ef1b4.js.map",
+    "453.fd2f0c4a.chunk.js.map": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87b72cd8.css",
+    "static/js/main.451ef1b4.js"
+  ]
+}
