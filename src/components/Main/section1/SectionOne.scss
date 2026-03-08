@@ -1,0 +1,100 @@
+.SectionOne {
+  max-width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+
+  justify-content: center;
+  gap: 20px;
+  padding: var(--spaceM);
+  box-sizing: border-box;
+}
+
+.articleCard {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+  gap: 10px;
+
+  background-color: var(--cardProduct);
+
+  border-radius: var(--border-rM);
+  max-width: 600px;
+  max-height: auto;
+  padding: var(--spaceM);
+
+  & div {
+    align-items: center;
+    max-height: auto;
+
+    & p {
+      margin-top: 30px;
+      font-size: 30px;
+    }
+  }
+
+  .articleLogo {
+    width: 100px;
+    height: auto;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+  .SectionOne {
+    grid-template-columns: 1fr;
+
+    & .articleCard {
+      & .articleLogo {
+        width: 50px;
+      }
+      & h3,
+      & p {
+        font-size: 10px;
+      }
+      & button {
+        font-size: 10px;
+      }
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .SectionOne {
+    grid-template-columns: 1fr;
+
+    & .articleCard {
+      & .articleLogo {
+        width: 15vw;
+      }
+      & h3,
+      & p {
+        font-size: 15px;
+      }
+      & button {
+        font-size: 15px;
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .SectionOne {
+    grid-template-columns: 1fr 1fr;
+
+    & .articleCard {
+      & .articleLogo {
+        width: 15vw;
+      }
+      & h3,
+      & p {
+        font-size: 25px;
+      }
+      & button {
+        font-size: 25px;
+      }
+    }
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px) {
+}

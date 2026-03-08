@@ -1,0 +1,33 @@
+.sectionTwo {
+  gap: 20px;
+
+  padding: var(--spaceM);
+
+  & div {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+
+    & .hiddenDescMarket {
+      display: none;
+      &.active {
+        display: flex;
+      }
+    }
+
+    & .descMarket {
+      padding: var(--spaceL);
+      border-radius: var(--border-rM);
+
+      background-color: var(--footerDescSlide);
+
+      font-weight: 400;
+
+      & a {
+        cursor: pointer;
+        font-weight: 600;
+        opacity: 0.7;
+      }
+    }
+  }
+}
