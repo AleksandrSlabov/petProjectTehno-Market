@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/petProjectTehno-Market/static/css/main.83363ca5.css",
+    "main.css": "/petProjectTehno-Market/static/css/main.18a8381e.css",
     "main.js": "/petProjectTehno-Market/static/js/main.aa6f0242.js",
     "static/js/453.fd2f0c4a.chunk.js": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js",
     "static/media/logoTehNoMarket.jpeg": "/petProjectTehno-Market/static/media/logoTehNoMarket.50df729185bcb8d6ae62.jpeg",
@@ -13,12 +13,12 @@
     "static/media/email.webp": "/petProjectTehno-Market/static/media/email.f4dc50fa38ea5260209d.webp",
     "static/media/telegram.webp": "/petProjectTehno-Market/static/media/telegram.c3d3a8d80e23a838ea83.webp",
     "index.html": "/petProjectTehno-Market/index.html",
-    "main.83363ca5.css.map": "/petProjectTehno-Market/static/css/main.83363ca5.css.map",
+    "main.18a8381e.css.map": "/petProjectTehno-Market/static/css/main.18a8381e.css.map",
     "main.aa6f0242.js.map": "/petProjectTehno-Market/static/js/main.aa6f0242.js.map",
     "453.fd2f0c4a.chunk.js.map": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83363ca5.css",
+    "static/css/main.18a8381e.css",
     "static/js/main.aa6f0242.js"
   ]
 }
