@@ -9,7 +9,7 @@ footer {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 
-  background-color: var(--footerDescSlide);
+  background-color: var(--footerHeader);
 
   padding: var(--spaceM);
   box-sizing: border-box;
@@ -168,6 +168,18 @@ footer {
 
     grid-template-rows: auto, auto;
     row-gap: 20px;
+
+    & .conteinerFooterLogo {
+      & img {
+        left: 1vw;
+      }
+    }
+
+    & .company {
+      & ul {
+        align-items: start;
+      }
+    }
 
     & form {
       grid-column: 2 /3;

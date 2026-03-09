@@ -3,8 +3,12 @@
 
   border-radius: var(--border-rM);
   box-sizing: border-box;
+
+  width: 80vw;
+
+  height: 90wh;
   max-width: 800px;
-  max-height: 90vh;
+  max-height: 800px;
   overflow: hidden;
   position: relative;
   z-index: 1001;
@@ -45,8 +49,8 @@
 
       & .conteiner_finishLogo_Title {
         & img {
-          width: 100px;
-          height: 100px;
+          width: 15vw;
+          height: auto;
         }
 
         & p {

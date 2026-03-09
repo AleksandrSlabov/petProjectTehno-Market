@@ -1,11 +1,44 @@
+header {
+  padding: 0 16px 0 16px;
+  box-sizing: border-box;
+
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+
+  transition:
+    opacity 0.3s ease,
+    background-color 0.3s ease;
+
+  &.scrolled {
+    opacity: 0.5;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
 .header {
+  box-sizing: border-box;
   gap: 2em;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 
   padding: var(--spaceM);
-  position: relative;
+
+  background-color: var(--footerHeader);
+
+  & .conteiner_heder__logo_and__title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 .header_logo {
-  max-width: 4em;
+  width: 10vw;
+  height: auto;
+  max-width: 8em;
   height: auto;
 }
 ul {
@@ -19,7 +52,19 @@ ul {
   & li {
     cursor: pointer;
 
-    &:hover {
+    @media (hover: hover) {
+      &:hover {
+        transform: scale(1.2);
+        font-weight: 700;
+        background-color: rgb(198, 241, 198);
+
+        padding: var(--spaceX);
+
+        border-radius: var(--border-rX);
+      }
+    }
+
+    &:active {
       transform: scale(1.2);
       font-weight: 700;
       background-color: rgb(198, 241, 198);
@@ -90,6 +135,9 @@ ul {
 @media (min-width: 200px) and (max-width: 767px) {
   .conteinerHeader {
     display: none;
+  }
+  .header_title_website {
+    font-size: 5vw;
   }
   .conteiner_Burger {
     display: block;

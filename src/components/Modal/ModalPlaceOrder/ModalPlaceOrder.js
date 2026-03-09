@@ -1,7 +1,7 @@
 import { useCart } from "../../../CartProvaider";
 import "../ModalCart/ModalCart.scss";
 import "../ModalPlaceOrder/ModalPlaceOrder.scss";
-
+import useHeader from "../../Header/useHeader";
 import logo from "../../image/logo192.png";
 import useOperationModalCart from "../ModalCart/useOperationModalCart";
 import useOrderForm from "./useOrderForm";
@@ -34,6 +34,8 @@ function ModalPlaceOrder() {
     isOrderSubmited,
     setIsOrderSubmited,
   } = useOrderForm();
+
+  const { scroll, setScroll, ulBurger, setUlburger } = useHeader();
 
   //проверка состояния , если у нас состояние false ты мы не загружаем его
   if (!placeOrderOpen) {

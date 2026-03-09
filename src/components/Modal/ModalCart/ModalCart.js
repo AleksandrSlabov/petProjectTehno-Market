@@ -1,12 +1,12 @@
 import { useCart } from "../../../CartProvaider";
 import useOperationModalCart from "./useOperationModalCart";
 import logo from "../../image/logo192.png";
-
+import useHeader from "../../Header/useHeader";
 import "./ModalCart.scss";
 
 function ModalCart() {
   const { cart, isModalOpen, setIsModalOpen, setPlaceOrderOpen } = useCart();
-
+  const { header, setHeader, setScroll } = useHeader();
   const {
     sum,
     discount,
