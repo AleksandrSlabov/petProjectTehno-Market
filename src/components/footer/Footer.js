@@ -110,7 +110,8 @@ function Footer() {
                 const date = new Date();
 
                 const message = ` Сообщение  от  ${date.toLocaleDateString("ru", { day: "numeric", month: "long", year: "numeric" })}
-              Имя : ${userName}Email:${userEmail}
+              Имя : ${userName};
+              Email:${userEmail};
               Коментарий: ${userComment || null}`;
 
                 try {
