@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/petProjectTehno-Market/static/css/main.18a8381e.css",
-    "main.js": "/petProjectTehno-Market/static/js/main.aa6f0242.js",
-    "static/js/453.fd2f0c4a.chunk.js": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js",
+    "main.css": "/petProjectTehno-Market/static/css/main.e88e96cf.css",
+    "main.js": "/petProjectTehno-Market/static/js/main.9524d288.js",
     "static/media/logoTehNoMarket.jpeg": "/petProjectTehno-Market/static/media/logoTehNoMarket.50df729185bcb8d6ae62.jpeg",
     "static/media/slide1.webp": "/petProjectTehno-Market/static/media/slide1.4e2ad2b4246a90ebf463.webp",
     "static/media/slide4.webp": "/petProjectTehno-Market/static/media/slide4.abf5ffd63bfe416dc214.webp",
@@ -13,12 +12,11 @@
     "static/media/email.webp": "/petProjectTehno-Market/static/media/email.f4dc50fa38ea5260209d.webp",
     "static/media/telegram.webp": "/petProjectTehno-Market/static/media/telegram.c3d3a8d80e23a838ea83.webp",
     "index.html": "/petProjectTehno-Market/index.html",
-    "main.18a8381e.css.map": "/petProjectTehno-Market/static/css/main.18a8381e.css.map",
-    "main.aa6f0242.js.map": "/petProjectTehno-Market/static/js/main.aa6f0242.js.map",
-    "453.fd2f0c4a.chunk.js.map": "/petProjectTehno-Market/static/js/453.fd2f0c4a.chunk.js.map"
+    "main.e88e96cf.css.map": "/petProjectTehno-Market/static/css/main.e88e96cf.css.map",
+    "main.9524d288.js.map": "/petProjectTehno-Market/static/js/main.9524d288.js.map"
   },
   "entrypoints": [
-    "static/css/main.18a8381e.css",
-    "static/js/main.aa6f0242.js"
+    "static/css/main.e88e96cf.css",
+    "static/js/main.9524d288.js"
   ]
 }
