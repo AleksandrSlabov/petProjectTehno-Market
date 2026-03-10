@@ -6,7 +6,7 @@
 
   width: 80vw;
 
-  height: 90wh;
+  height: 90vh;
   max-width: 800px;
   max-height: 800px;
   overflow: hidden;
@@ -19,6 +19,9 @@
 
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   gap: 0px;
+  & .secHeader {
+    padding-bottom: 10px;
+  }
   & .secMain {
     gap: 20px;
   }

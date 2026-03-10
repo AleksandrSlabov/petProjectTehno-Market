@@ -25,6 +25,7 @@ header {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 
+  height: 20vh;
   padding: var(--spaceM);
 
   background-color: var(--footerHeader);
@@ -32,13 +33,14 @@ header {
   & .conteiner_heder__logo_and__title {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
   }
 }
 .header_logo {
-  width: 10vw;
+  max-width: 5vw;
   height: auto;
-  max-width: 8em;
+  border-radius: 50%;
   height: auto;
 }
 ul {
@@ -132,7 +134,24 @@ ul {
   }
 }
 
-@media (min-width: 200px) and (max-width: 767px) {
+@media (min-width: 200px) and (max-width: 480px) {
+  .conteinerHeader {
+    display: none;
+  }
+  .conteiner_Burger {
+    display: block;
+  }
+  .conteiner_heder__logo_and__title {
+    // flex-direction: column;
+    flex-direction: row-reverse;
+
+    & img {
+      max-width: 15vw;
+    }
+  }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
   .conteinerHeader {
     display: none;
   }
@@ -141,5 +160,13 @@ ul {
   }
   .conteiner_Burger {
     display: block;
+  }
+
+  .conteiner_heder__logo_and__title {
+    flex-direction: row-reverse;
+
+    & img {
+      max-width: 10vw;
+    }
   }
 }
