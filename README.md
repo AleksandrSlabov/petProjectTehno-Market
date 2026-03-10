@@ -1,70 +1,170 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  Techno Market — Интернет-магазин электроники
 
-In the project directory, you can run:
 
-### `npm start`
+  ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+  ![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+  ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+</div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Добро пожаловать в репозиторий Techno Market — моего pet-проекта, интернет-магазина с корзиной, оформлением заказов и отправкой уведомлений в Telegram.
+Проект создан на React и демонстрирует работу с хуками, контекстом, модальными окнами, адаптивной версткой , формой обратной связи и оформлением заказа с передачей данных в telegram бота через серверную функцию которая работает на Vercel. Если вы перешли на демо версию сайта (ссылка ниже) то можете заполнить форму и отправить, я обязательно ее увижу и прочту ! 
 
-### `npm run eject`
+🚀 Демо
+  - 👉 https://aleksandrslabov.github.io/petProjectTehno-Market/
+  - Заполните форму обратной связи — я обязательно её увижу и отвечу!
+  - Спасибо GitHub за такую чудесную возможность !
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+✨ Особенности
+1. Каталог товаров (загружается с внешнего API, при ошибке — локальный JSON).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Добавление товаров в корзину.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Модальное окно корзины с возможностью:
+   - изменения количества товара.
+   - удаления товара (с анимацией).
+   - просмотра суммы, скидки и итоговой стоимости.
+   
+4. Оформление заказа:
+   - форма с валидацией полей.
+   - предпросмотр выбранных товаров.
+   - отправка заявки в Telegram через серверную функцию.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+5. Адаптивный дизайн для мобильных, планшетов и десктопов.
 
-## Learn More
+6. Хедер с бургер-меню на мобильных устройствах.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Слайдер с фотографиями производства.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8. Раздел «О нас» с раскрывающимся текстом.
 
-### Code Splitting
+9. Обратная связь через форму в футере (также отправляется в Telegram).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🛠 Используемые технологии
+1. Frontend:
+   - React (CRA).
+   - React Hooks (useState, useEffect, useContext, custom hooks).
+   - Context API для управления состоянием корзины.
+   - SCSS (CSS-переменные, медиа-запросы, модульный подход).
+   - Адаптивная верстка (mobile-first).
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Backend (serverless function ):
+   - Node.js (Vercel Serverless Functions).
+   - Telegram Bot API для отправки сообщений.
+   - Redis (через Upstash) для ограничения частоты отправки (rate limiting)
+   - Буду сразу честен без LLM было бы трудно разобраться в vercel и redits. Это был первый опыт с backend.
 
-### Making a Progressive Web App
+3. Деплой:
+   - Frontend — GitHub Pages.
+   - Serverless функция — Vercel.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+📦 Установка и запуск локально
+Клонируйте репозиторий:
 
-### Advanced Configuration
+```bash 
+git clone https://github.com/AleksandrSlabov/petProjectTehno-Market
+cd petProjectTehno-Market
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Установите зависимости:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm install
+```
 
-### `npm run build` fails to minify
+Запустите проект в режиме разработки:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
+Приложение откроется на http://localhost:3000.
+
+Для сборки production-версии:
+
+```bash
+npm run build
+```
+
+🔧 Настройка отправки в Telegram (для серверной функции)
+
+Функция для отправки формы в Telegram размещена на Vercel . Chat_id  BOT_TOKEN тоже размещены на Vercel и уже от туда передаются в саму функцию когда она вызывается.
+Процесс происходит так: 
+ 1. Мы делаем Post запрос на нашу функцию , в нашем случае мы передаем строку , сделано это для мобильности функции , так как данная функция будет использоваться в следующих проектах.
+ 2. Это функция принимает запрос и из переменного  окружения применяет chat_id bot_token и передает в telegramm.
+ 3.  3. Так же у нас стоит запрос через redis url что ограничивает отправку формы 3 раза в час , ну вдруг кто то решить заспамить бота . Так хоть как то обезопасил себя :)
+
+
+
+
+
+
+📁 Структура проекта
+```
+src/
+├── components/
+│   ├── Header/            # Шапка сайта + бургер-меню
+│   ├── Main/
+│   │   ├── section1/       # Карточки товаров
+│   │   ├── section2/       # О нас
+│   │   └── section3/       # Слайдер производства
+│   ├── Modal/
+│   │   ├── ModalCart/      # Модальное окно корзины
+│   │   └── ModalPlaceOrder # Модальное окно оформления заказа
+│   └── footer/             # Подвал с контактами и формой обратной связи
+├── image/                  # Изображения и иконки
+├── style/                  # Глобальные стили (переменные, утилиты)
+├── data/                   # Локальный JSON с товарами (запасной)
+├── CartProvider.js         # Контекст корзины
+├── App.js                  # Корневой компонент
+└── index.js                # Точка входа
+```
+
+📱 Адаптивность
+Проект полностью адаптивен и корректно отображается на:
+
+мобильных устройствах (ширина до 480px)
+
+планшетах (481px – 768px)
+
+десктопах (более 768px)
+
+🧠 Чему я научился в этом проекте
+Работа с React Context для глобального состояния
+
+Создание кастомных хуков (useHeader, useOperationModalCart, useOrderForm)
+
+Реализация модальных окон с оверлеем через useState 
+
+Взаимодействие с внешним API и обработка ошибок
+
+Организация serverless функции на Vercel
+
+Использование Redis для rate limiting
+
+Адаптивная верстка на SCSS
+
+Работа с формами и валидация
+
+👤 Автор
+Александр Слабов
+
+Telegram: @sancheszzzzz
+
+GitHub: AleksandrSlabov
+
+Email: slabov2014@gmail.com
+
+Если у вас есть вопросы или предложения, буду рад обратной связи!
+
+⭐️ Если проект показался вам полезным, поставьте звезду на GitHub — это очень мотивирует!
